@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: times new roman;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+.img-responsive{
+	width: 100%;
+}
+
+.btn{
+	background-color: #7C3212;
+	color: white;
+	padding: 2%;
+	text-decoration: none;
+}
+
+.btn:hover{
+	border: 1px solid #7C3212;
+	background-color: white;
+	color: #7C3212;
+}
+.mb-5{
+	margin-bottom: 5%;
+}
+
+.col-2{
+	width: 49%;
+	float: left;
+}
+.col-3{
+	width: 28%;
+	float: left;
+	margin: 2%;
+}
+.col-4{
+	width: 20%;
+	float: left;
+	margin: 2%;
+}
+
+/* Css for Navbar */
+.logo{
+	width: 20%;
+	float: left;
+	font-weight: bold;
+	color: #F15512;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 2%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #F15512;
+}
+
+.menu ul li a:hover{
+	color: #5E2006;
+	text-decoration: underline;
+}
+
+/* CSS for about section */
+.about{
+	margin-bottom: 5%;
+}
+.about-tittle{
+	margin-bottom: 6%;
+	color: #7C3212;
+
+}
+
+.about-subtittle{
+	font-weight: bold;
+	color: #7B7C12;
+	margin-bottom: 9%;
+}
+
+.about-description{
+	font-size: 1.2em;
+	line-height: 25px;
+	margin-bottom: 13%;
+}
+
+/* CSS for Project Section */
+.projects{
+	margin-bottom: 5%;
+}
+.projects a{
+	color: white;
+	font-weight: bold;
+}
+
+.projects a:hover{
+    color: lightblue;
+}
+.project-box{
+	position: relative;
+}
+
+.project-tittle{
+	position: absolute;
+	top: 80%;
+	padding: 6%;
+}
+
+/* CSS for Skills */
+.skills{
+	margin-bottom: 5%;
+}
+
+.skill-box{
+	margin-bottom: 3%;
+}
+.skill-tittle{
+	font-size: 1.3em;
+	line-height: 50px;
+}
+
+.skill-meter{
+	border: 1px solid #F15512;
+	width: 90%;
+	float: right;
+}
+
+/* CSS for blogs */
+.blog{
+	margin-bottom: 5%;
+}
+.blog-tittle{
+	padding: 0.5% 2%;
+	text-align: center;
+
+}
+
+/*CSS for Footer*/
+.footer{
+	padding-bottom: 5%;
+}
+footer ul{
+	list-style-type: none;
+}
+footer ul li{
+	display: inline;
+	padding: 2%;
+}
+
+/*CSS for Mobile devices*/
+@media only screen and(max-width: 768px) {
+   .logo{
+   	width: 100%;
+   	text-align: center;
+   	margin-bottom: 2%;
+   }
+
+   .menu{
+   	width: 100%;
+   	text-align: center;
+   	margin-bottom: 5%;
+   }
+
+   .col-2{
+   	width: 100%;
+   	text-align: center;
+   	margin-bottom: 10%;
+   }
+
+    .col-3{
+   	width: 100%;
+   	text-align: center;
+   	margin-bottom: 10%;
+   }
+
+   .skill-meter{
+   	width: 100%;
+   }
+
+    .col-4{
+   	width: 100%;
+   	text-align: center;
+   	margin-bottom: 10%;
+   }
+}
